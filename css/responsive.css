@@ -1,0 +1,1363 @@
+@media screen and (max-width: 1400px) {
+
+:root
+{
+    --size-18: 15px;
+    --size-20: 16px;
+    --size-24: 20px;
+    --size-30: 25px;
+    --size-40: 32px;
+    --size-48: 40px;
+    --size-80: 58px;
+	--size-130: 80px;
+}
+.container
+{
+    max-width: 1140px;
+}
+body
+{
+    line-height: 23px;
+}
+.headersec
+{
+    padding: 12px 50px;
+}
+.hmefstcontsec h1
+{
+    line-height: 70px;
+    max-width: 450px;
+}
+.button
+{
+    line-height: 55px;
+    font-size: 17px;
+}
+.hmefstdatasec h2
+{
+    max-width: 68%;
+}
+.sidebtmtxt
+{
+    line-height: 1.4;
+    right: 20px;
+}
+.glutchapathimixthrdcontsec h2
+{
+    max-width: 560px;
+}
+.btn-close
+{
+    top: 100px;
+    right: 50px;
+}
+.modalcontwidth
+{
+    max-width: 50%;
+}
+.mobinnerfstcontsec
+{
+    min-height: 1080px;
+}
+.multipurposebg
+{
+    min-height: 700px;
+    padding: 100px 0;
+}
+.glutchapathimixfrthcontsec
+{
+    padding-top: 50px;
+}
+.fstrecipecontsec::before
+{
+    background-size: 50% auto;
+}
+.fstrecipecontsec::after
+{
+    background-size: 65% auto;
+}
+.lftrecipecontsec p
+{
+    max-width: 425px;
+}
+.rytrecipecontsec img
+{
+    max-width: 450px;
+}
+.botrecipecontsec
+{
+    margin-top: 75px;
+}
+.receipeimg01, .recipeimg04
+{
+    max-width: 400px;
+}
+.recipeimg04
+{
+    right: -50px;
+}
+.frthrecipecontpart
+{
+    margin-top: 50px;
+}
+.receipeimg01
+{
+    left: -50px;
+}
+.recipeclear02
+{
+    height: 50px;
+}
+
+}
+
+@media screen and (max-width: 1299px) {
+
+:root
+{
+    --size-20: 15px;
+    --size-24: 19px;
+    --size-30: 22px;
+    --size-40: 28px;
+    --size-48: 35px;
+    --size-80: 48px;
+	--size-130: 60px;
+}
+body
+{
+    line-height: 22px;
+}
+.container
+{
+    max-width: 1100px;
+}
+.hmefstcontsec
+{
+    min-height: 800px;
+}
+.hmefstcontsec h1
+{
+    line-height: 55px;
+    max-width: 425px;
+}
+.hmefstdatalftpart
+{
+    row-gap: 75px;
+}
+.hmefstdatarytpart
+{
+    row-gap: 75px;
+}
+.greycontbg
+{
+    padding: 50px 30px;
+}
+.communitycontwidth
+{
+    padding: 40px;
+}
+.glutmixfstcontgridsec
+{
+    gap: 30px;
+}
+.glutchapathimixthrdcontsec
+{
+    min-height: 600px;
+}
+.glutpancakemixthrdcontsec
+{
+    min-height: 600px;
+    padding: 125px 0;
+}
+.receipeimg01
+{
+    max-width: 300px;
+    left: 50px;
+}
+.fstrecipecontpart
+{
+    padding-left: 380px;
+}
+.recipeimg04
+{
+    right: 50px;
+}
+.blogthumb
+{
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+.blogpostcontpart
+{
+    flex: 0 0 55%;
+    max-width: 55%;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.container
+{
+    max-width: 100%;
+}
+.headersec
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hmefstcontsec
+{
+    min-height: 700px;
+}
+.greycontbg
+{
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+}
+.hmesndcontsec, .hmeseventhcontsec, .glutchapathimixfstcontsec
+{
+    padding-bottom: 60px;
+}
+.hmethrdcontsec, .hmefrthcontsec, .footersec, .glutchapathimixsndcontsec
+{
+    padding: 60px 0;
+}
+.glutchapathimixfrthcontsec
+{
+    padding: 40px 0 60px 0;
+}
+.hmefifthcontsec
+{
+    padding: 60px 0 100px 0;
+}
+.btn-close
+{
+    top: 75px;
+    right: 25px;
+}
+.modal-content p
+{
+    font-size: 25px;
+}
+.glutchapathimixfstcontsec h2
+{
+    padding-bottom: 40px;
+}
+.glutchapathimixfrthcontsec h2
+{
+    padding: 0 0 15px 0;
+}
+.fstrecipecontpart
+{
+    padding-right: 80px;
+}
+.recipeimg02
+{
+    right: 0;
+}
+.recipeimg04
+{
+    max-width: 300px;
+}
+.rytrecipecontsec img
+{
+    max-width: 100%;
+}
+.fstrecipecontsec::before
+{
+    background-size: 70% auto;
+}
+.fstrecipecontsec::after
+{
+    background-size: 90% auto;
+}
+.blogthumb
+{
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+.blogpostcontpart
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+
+.hmefstcontsec
+{
+    min-height: 750px;
+}
+.hmefstdatalftpart, .hmefstdatarytpart
+{
+    row-gap: 55px;
+}
+.headersec
+{
+    background: rgba(240, 128, 0, 1);
+    z-index: 99;
+}
+.navbar-brand img
+{
+    max-width: 135px;
+}
+.navbar-toggler
+{
+    display: none;
+}
+.mobhamburger
+{
+    background: url(../images/hamburger.png) no-repeat left top;
+    width: 32px;
+    height: 22px;
+    background-size:100% 100%;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    display: block;
+}
+.navbar-toggler span
+{
+    font-size: 0;
+}
+.navbar-toggler:focus
+{
+    box-shadow: none !important;
+}
+.navbar-collapse
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 62px;
+    z-index: 9;
+    background: var(--yellowochre2);
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.headersec .navbar-collapse .navbar-nav
+{
+    gap: 0;
+}
+.headersec .navbar-collapse .navbar-nav .nav-item .nav-link
+{
+    padding: 0;
+    line-height: 45px;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+    font-weight: 500;
+    color: var(--white);
+}
+.headersec .navbar-collapse .navbar-nav .nav-item:last-child .nav-link
+{
+    border-bottom: 0;
+}
+.greycontbg
+{
+    padding: 20px;
+}
+.imagepart
+{
+    max-width: 125px;
+    margin: 0 auto;
+}
+.aoecspart
+{
+    padding: 100px 50px;
+}
+ul.ftrsocial
+{
+    gap: 6px;
+}
+.footersec
+{
+    padding: 40px 0;
+}
+.modalcontwidth
+{
+    max-width: 75%;
+}
+.modal-content p
+{
+    font-size: 25px;
+}
+.btn-close
+{
+    top: 25px;
+}
+.glutmixfstcontgridsec
+{
+    gap: 15px;
+}
+.glutchapathimixthrdcontalignpad, .glutpancakemixthrdcontsec .glutchapathimixthrdcontalignpad
+{
+    padding: 0;
+}
+.glutchapathimixthrdcontsec h2
+{
+    padding-bottom: 35px;
+}
+.glutchapathimixfstcontsec h2
+{
+    max-width: 100%;
+}
+.mobmenubgsec
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100vh;
+    padding: 25px 20px;
+    background: url(../images/mobmenubg.jpg) no-repeat center center;
+    background-size: cover;
+    overflow-y: auto;
+}
+.mobmenutopsec
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mobmenutitle
+{
+    font-size: var(--size-48);
+    font-family: var(--vinasans);
+    color: var(--white);
+}
+.modalclose
+{
+    width: 25px;
+}
+.multipurposebg
+{
+    padding: 125px 0;
+    min-height: 500px;
+}
+.glutchapathimixsndcontsec h2
+{
+    padding-bottom: 40px;
+}
+.receipeimg01
+{
+    max-width: 250px;
+    left: 25px;
+}
+.fstrecipecontpart
+{
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 300px;
+}
+.sndrecipecontpart, .thrdrecipecontpart, .frthrecipecontpart
+{
+    padding: 40px;
+}
+.recipeimg03
+{
+    margin-top: 0;
+}
+.thrdrecipecontpart, .frthrecipecontpart
+{
+    margin-top: 0;
+}
+.recipeimg04
+{
+    max-width: 250px;
+    margin-top: 50px;
+}
+.tabletyperowline p
+{
+    font-size: var(--size-20);
+}
+
+}
+
+@media screen and (max-width: 767px) {
+
+:root
+{
+    --size-20: 20px;
+    --size-24: 18px;
+    --size-30: 24px;
+    --size-40: 36px;
+    --size-48: 40px;
+    --size-80: 48px;
+	--size-130: 66px;
+}
+body
+{
+    line-height: 24px;
+}
+.hmefstcontsec
+{
+    min-height: 700px;
+}
+.hmefstdatasec
+{
+    padding-top: 35px;
+}
+.hmefstcontsec h1
+{
+    line-height: 0.9;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.contentpart h2
+{
+    max-width: 250px;
+}
+button.readall-button
+{
+    width: 59px;
+    height: 19px;
+}
+.funfact
+{
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.hmefstdatasec .container .row
+{
+    height: 95%;
+}
+.hmefstdatalftpart
+{
+    row-gap: 35px;
+}
+.hmefstdatarytpart
+{
+    max-width: 100%;
+    float: none;
+    flex-direction: row;
+    row-gap: 0;
+}
+.sglecommunitycontsec h5
+{
+    line-height: 1.1;
+}
+.heartnarrowdiv
+{
+    max-width: 50%;
+}
+.hmefstdatalftpart div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.hmefstcontsec a.button
+{
+    float: none;
+    margin: 0;
+    line-height: 40px;
+    padding: 0 20px;
+}
+.imagepart
+{
+    max-width: 252px;
+}
+.greycontbg
+{
+    padding: 40px 26px;
+    row-gap: 50px;
+}
+.hmesndcontsec
+{
+    padding: 50px 10px 60px 10px;
+}
+.desktopview
+{
+    display: none;
+}
+.mobileview
+{
+    display: block;
+}
+.hmethrdcontsec .row
+{
+    row-gap: 40px;
+}
+.hmethrdcontsec .col-lg-7
+{
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.hmethrdcontsec .col-lg-1
+{
+    padding-top: 30px;
+}
+.hmethrdcontsec .col-lg-4
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.hmefrthcontsec h2
+{
+    max-width: 370px;
+}
+.hmethrdcontfunfactimg
+{
+    align-items: center;
+}
+.hmefrthcontsec h3
+{
+    text-align: center;
+    padding-bottom: 45px;
+    line-height: 1.2;
+}
+.community-carousel .owl-prev
+{
+    left: 0;
+}
+.community-carousel .owl-next
+{
+    right: 0;
+}
+.hmefifthcontsec h2
+{
+    text-align: left;
+    padding-bottom: 35px;
+}
+.lftcommunitycontsec, .rytcommunitycontsec
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.lftcommunitycontsec
+{
+    text-align: center;
+}
+.hmefifthcontsec .owl-dots .owl-dot.active span
+{
+    background: var(--hibiscus) !important;
+}
+.hmesixthcontsec h3
+{
+    padding-bottom: 25px;
+}
+.spacer
+{
+    height: 25px;
+}
+.hmesixthcontsec .col-md-5
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.yellowfunfactsec
+{
+    justify-content: center;
+    order: 2;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.hmesixthcontsec .row, .hmeseventhcontsec .row
+{
+    row-gap: 40px;
+}
+.hmeseventhcontfunfactimg
+{
+    align-items: center;
+}
+.hmeseventhcontsec
+{
+    padding-top: 115px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.hmeseventhcontsec h2
+{
+    max-width: 300px;
+}
+.hmeseventhcontfunfactimg
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footersec .col-md-11 .row
+{
+    row-gap: 30px;
+}
+.aoecspart
+{
+    padding: 30px 50px;
+    margin-top: 0;
+    order: 1;
+}
+.modal-content p
+{
+    font-size: 22px;
+}
+.btn-close
+{
+    width: 25px;
+    height: 25px;
+    top: 15px;
+    right: 15px;
+}
+.modalcontwidth
+{
+    max-width: 90%;
+}
+.glutchapathimixfstcontsec h2
+{
+    max-width: 100%;
+}
+.gridthumbsec
+{
+    margin-bottom: 25px;
+    height: auto;
+}
+.tablelistsec
+{
+    width: 100%;
+    overflow: hidden;
+}
+.lfttabletypepart
+{
+    flex: 0 0 46%;
+    max-width: 46%;
+}
+.midtabletypepart
+{
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+.ryttabletypepart
+{
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+.extraryttabletypepart
+{
+    flex: 0 0 18%;
+    max-width: 18%;
+}
+.midtablettypemiddlepart img
+{
+    max-width: 40px;
+}
+.midtablettypemiddlepart
+{
+    gap: 10px;
+}
+.tablelistsec::before
+{
+    left: 45%;
+}
+.verticalline
+{
+    left: 63%;
+}
+.tablelistsec::after
+{
+    right: 18%;
+}
+.tabletyperowline p
+{
+    font-size: var(--size-12);
+}
+.glutchapathimixsndcontsec h2
+{
+    padding-bottom: 35px;
+    max-width: 325px;
+    margin: 0 auto;
+}
+.glutchapathimixthrdcontalignpad .row
+{
+    row-gap: 100px;
+}
+.glutchapathimixfrthcontsec .row
+{
+    row-gap: 40px;
+}
+.glutchapathimixfrthcontsec .row .row
+{
+    row-gap: 0;
+}
+.glutchapathimixthrdcontsec
+{
+    padding: 120px 0 150px 0;
+    min-height: auto;
+    position: relative;
+    overflow: inherit;
+}
+.mobchapathiimg01
+{
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: -25px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0s;
+}
+.mobchapathiimg02
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 200px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.mobchapathiimg03
+{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 600px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mobchapathiimg04
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.mobchapathiimg05
+{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.hmethrdcontsec
+{
+    background: var(--sky);
+}
+.mobhmepgicon01
+{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.mobhmepgicon02
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 700px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mobhmepgicon03
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -70px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+    max-width: 200px;
+    margin: 0 auto;
+}
+@keyframes float {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+.glutchapathimixthrdcontsec .container
+{
+    position: relative;
+    z-index: 2;
+}
+.glutchapathimixfrthcontsec
+{
+    padding: 60px 0;
+}
+.glutchapathimixthrdcontsec video, .hmethrdcontsec video, .hmesixthcontsec video
+{
+    display: none;
+}
+.glutchapathimixthrdcontalignpad
+{
+    padding: 130px 0 0;
+    background-position: 70px top, 70% 370px;
+}
+.mobinnerfstcontsec
+{
+    min-height: 850px;
+}
+.mobinnerfstcontsec .hmefstdatasec
+{
+    padding-top: 0;
+}
+.mobinnerfstcontsec .hmefstdatasec h1
+{
+    font-size: var(--size-80);
+    max-width: 290px;
+}
+.sidebtmtxt
+{
+    display: none;
+}
+.mobmultipurposeimg01
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mobmultipurposeimg02
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 530px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.mobmultipurposeimg03
+{
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: -30px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mobmultipurposeimg04
+{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.glutmultipurposealignpad .row
+{
+    row-gap: 180px;
+}
+.glutmultipurposealignpad
+{
+    padding: 0 0 90px 0;
+    background-image: url(../images/lftmobmultipurposearrow.png), url(../images/rytmobmultipurposearrow.png);
+    background-repeat: no-repeat;
+    background-position: 100px 300px, 70% bottom;
+}
+.middlecleardiv
+{
+    height: 50px;
+}
+.ftrfstcolsec
+{
+    height: auto;
+}
+.ftrfstcolsec ul
+{
+    row-gap: 15px;
+}
+.ftrlinksec
+{
+    margin-top: 15px;
+}
+ul.ftrsocial
+{
+    gap: 15px;
+}
+ul.ftrsocial li a
+{
+    font-size: 25px;
+}
+.footersec
+{
+    padding-bottom: 20px;
+}
+.fstrecipecontsec, .fstblogcontsec
+{
+    height: 100%;
+    padding-top: 100px;
+}
+.fstrecipecontsec .container, .fstrecipecontsec .container .row
+{
+    height: auto;
+}
+.lftrecipecontsec, .rytrecipecontsec
+{
+    height: auto;
+    text-align: center;
+}
+.fstrecipecontsec::before {
+        background-size: 100% auto;
+    }
+.fstrecipecontsec::after {
+        background-size: 100% auto;
+    }
+.rytrecipecontsec img
+{
+    max-width: 350px;
+    bottom: -25px;
+}
+.sndrecipecontsec, .sndblogcontsec
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.botrecipecontsec
+{
+    margin-top: 150px;
+    row-gap: 140px;
+}
+.fstrecipecontpart, .sndrecipecontpart, .thrdrecipecontpart, .frthrecipecontpart
+{
+    padding: 175px 40px 40px 40px;
+}
+.receipeimg01
+{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -100px;
+    transform: none;
+}
+.recipeimg02, .recipeimg03, .recipeimg04
+{
+    max-width: 250px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -100px;
+}
+.recipeimg02.desktopview
+{
+    display: none;
+}
+.recipeimg02.mobileview
+{
+    display: block;
+}
+.recipeimg04
+{
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.recipeclear02
+{
+    height: 25px;
+}
+.rytblogcontsec img
+{
+    bottom: auto;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.sgleblogwidth
+{
+    padding: 0 5px;
+    float: left;
+    margin: 0 0 30px 0 !important;
+    width: 50%;
+}
+.blogcontbg
+{
+    padding: 0 !important;
+    flex-direction: column;
+}
+.blogcontbg::before
+{
+    width: 100%;
+}
+.blogthumb, .blogpostcontpart
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.blogthumb
+{
+    max-width: 100%;
+    margin: 0 auto;
+    order: 1 !important;
+}
+.blogpostcontpart
+{
+    padding: 15px !important;
+    order: 2 !important;
+    text-align: center;
+}
+.glupancakecontalignpad
+{
+    background-image: url(../images/lftmobmultipurposearrow.png), url(../images/rytmobmultipurposearrow.png) !important;
+    background-repeat: no-repeat !important;
+    background-position: 70px 250px, 80% bottom !important;
+    padding-bottom: 50px !important;
+}
+.mobpancakeimg01
+{
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: -50px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mobpancakeimg02
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 472px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.mobpancakeimg03
+{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    z-index: 1;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+}
+.mobpancakeimg04
+{
+    display: block;
+    position: absolute;
+    left: 35px;
+    bottom: -30px;
+    z-index: 1;
+    animation: float 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+.glupancakecontalignpad .row
+{
+    row-gap: 120px;
+}
+.glutpancakemixthrdcontsec
+{
+    padding-bottom: 120px;
+}
+.hmesixthcontsec
+{
+    padding-top: 125px;
+    padding-bottom: 0;
+}
+.hmesixthcontsec h2
+{
+    max-width: 300px;
+}
+.hmesixthcontsec .col-xl-7
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.glutchapathimixfstcontsec
+{
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.glutchapathimixfstcontsec h2
+{
+    padding-bottom: 20px;
+}
+.tabletyperowline .heading
+{
+    font-size: var(--size-15);
+    line-height: 1.2;
+}
+.btmtablelistsec p
+{
+    font-size: var(--size-16);
+}
+.glutchapathimixthrdcontsec h2, .glutchapathimixfrthcontsec h2
+{
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.funfactwithbg
+{
+    margin-top: 10px;
+}
+.bluetickicon
+{
+    position: absolute;
+    right: 15px;
+    top: 55%;
+    z-index: 1;
+    display: block;
+    transform: translateY(-50%);
+}
+.hmefifthcontsec
+{
+    padding-bottom: 50px;
+}
+.hmefifthcontsec video
+{
+    height: auto;
+    object-fit: contain;
+    top: 90%;
+}
+.hmefstdatasec h2
+{
+    max-width: 100%;
+    text-align: center;
+    padding-right: 0;
+    background-size: 60px auto;
+}
+.hmefstdatasec p
+{
+    text-align: center;
+    font-size: var(--size-18);
+}
+.glutchapathimixfrthcontsec ul li
+{
+    background-size: 20px auto;
+    padding-left: 32px;
+}
+.mobinnerpancakefstsec
+{
+    background-image: url(../images/btmarrow.png);
+    background-repeat: no-repeat;
+    background-position: 90% 275px;
+}
+.mobinnerpancakefstsec .hmefstdatasec h2
+{
+    margin-top: 60px;
+}
+.heartnarrowdiv h3
+{
+    font-size: var(--size-30);
+}
+.heartnarrowdiv p
+{
+    text-align: left;
+    max-width: 100%;
+    line-height: 1.3;
+}
+.community-carousel .owl-dots
+{
+    margin-top: 10px;
+}
+
+}
+
+@media screen and (max-width: 479px) {
+
+.fstmodalbg
+{
+    background: url(../images/mobfstmodalbg.jpg) no-repeat center top;
+    background-size: cover;
+}
+.sndmodalbg
+{
+    background: url(../images/mobsndmodalbg.jpg) no-repeat center top;
+    background-size: cover;
+}
+.hmefstcontsec a.button
+{
+    padding: 0 15px;
+}
+.midtablettypemiddlepart
+{
+    gap: 5px;
+    max-width: 100%;
+}
+.midtablettypemiddlepart img
+{
+    max-width: 30px;
+}
+.middlecleardiv
+{
+    height: 50px;
+}
+.rytrecipecontsec img
+{
+    max-width: 280px;
+}
+.fstrecipecontpart, .sndrecipecontpart, .thrdrecipecontpart, .frthrecipecontpart
+{
+    padding: 175px 20px 35px 20px;
+}
+.sgleblogwidth
+{
+    padding: 0;
+    float: none;
+    width: 100%;
+    margin: 0 0 25px 0 !important;
+}
+.blogpostcontpart
+{
+    padding: 25px 20px !important;
+}
+.rytblogcontsec img
+{
+    max-width: 300px;
+}
+.glutchapathimixthrdcontalignpad
+{
+    padding-top: 100px;
+}
+.mobchapathiimg03
+{
+    top: 620px;
+}
+.glutchapathimixthrdcontalignpad
+{
+    background-size: 80px auto, 80px auto;
+    background-position: 70px top, 65% 400px;
+}
+.glutmultipurposealignpad
+{
+    padding-top: 0;
+    background-position: 100px 315px, 60% bottom;
+}
+.mobpancakeimg02
+{
+    top: 477px;
+}
+.mobmultipurposeimg02
+{
+    top: 555px;
+}
+.mobinnerpancakefstsec
+{
+    background-position: 95% 215px;
+}
+
+}

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slimmenu.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Relteaur</title>
+</head>
+<body>
+    <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="firstModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content fstmodalbg">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modalcontwidth">
+                    <p>We're an</p>
+                    <p> <strong> AOECS-certified gluten free brand  in India, driven by taste. </strong>
+                     It's like having a chef working with only clean and safe ingredients for your tummy's delight
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="secondModal" tabindex="-1" aria-labelledby="secondModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content sndmodalbg">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modalcontwidth">
+                    <p>Our</p>
+                    <p>AOECS certification process took multiple recipe iterations
+                        with an eye for detail for safety and ingredient quality. <br>
+                      <strong> Perfectionism level: <br> Slightly obsessive </strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="thirdModal" tabindex="-1" aria-labelledby="thirdModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content fstmodalbg">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modalcontwidth">
+                    <p>Our AOECS certification is like getting an advanced degree in gluten free safety. 
+                    It took us multiple recipe iterations and great patience. Worth every minute</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="forthModal" tabindex="-1" aria-labelledby="forthModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content sndmodalbg">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modalcontwidth">
+                    <p>Reliteaur isn't just a product, <br> it's a gluten free wonder; <br> the ingredient that makes your food tasty and indulgently fantastic!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myDiv" class="mobmenubgsec" style="display: none;">
+        <div class="mobmenutopsec">
+            <div class="mobmenutitle">Menu</div>
+            <div class="modalclose" id="mobhamburger"><img src="images/close.svg"></div>
+        </div>
+        <ul class="slimmenu">
+            <li><a href="index.html">Home</a></li>
+                <li><a href="#">Our Products</a>
+                    <ul>
+                        <li><a href="gluten-free-chapathi-mix.html">Gluten Free Chapathi Mix</a></li>
+                        <li><a href="gluten-free-multipurpose-mix.html">Gluten Free Multipurpose Mix</a></li>
+                        <li><a href="gluten-free-pancake-mix.html">Gluten Free Pancake Mix</a></li>
+                    </ul>
+                </li>
+            <li><a href="recipe.html">Gluten Free Recipes</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg headersec">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Our Products</a>
+                        <ul>
+                            <li><a href="gluten-free-chapathi-mix.html">Gluten Free Chapathi Mix</a></li>
+                            <li><a href="gluten-free-multipurpose-mix.html">Gluten Free Multipurpose Mix</a></li>
+                            <li><a href="gluten-free-pancake-mix.html">Gluten Free Pancake Mix</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="recipe.html">Gluten Free Recipes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" id="fadeButton" class="mobhamburger"></a>
+        </div>
+    </nav>
+    <div class="hmefstcontsec">
+        <div class="bluetickicon"><img src="images/bluetick.png"></div>
+        <div class="hmefstdatasec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-8">
+                        <div class="hmefstdatalftpart">
+                            <h1>The Great Gluten Free Awakening</h1>
+                            <div><a href="#" class="button">Join the revolution</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="hmefstdatarytpart">
+                            <div class="heartnarrowdiv">
+                                <div class="test">
+                                    <h3>Where Taste Takes the Lead.</h3>
+                                    <p>Made in a dedicated gluten free manufacturing unit to ensure purity and safety.</p>
+                                </div>
+                            </div>
+                            <div class="funfact">
+                                <div class="whtefunfacttoparrow"><img src="images/whtefunfacttoparrow.png"></div>
+                                <a class="modalbutton" type="button" data-bs-toggle="modal" data-bs-target="#firstModal"><img src="images/Funfact.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline preload="auto" poster="images/hmevideopposter.jpg">
+            <source src="video/hmevideo.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div class="hmesndcontsec">
+        <div class="container">
+            <div class="desktopview">
+                <div class="row wow fadeInUpBig">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="greycontbg">
+                            <div class="contentpart">
+                                <h2>Gluten free chapathi mix</h2>
+                                <h3>The Flatbread Whisperer</h3>
+                                <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your family asking for your secret. Tasteful Surprise: The secret is it's gluten free!</p>
+                            </div>
+                            <div class="imagepart"><img src="images/img04.png"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="greycontbg middlegreycontbg">
+                            <div class="imagepart"><img src="images/img06.png"></div>
+                            <div class="contentpart">
+                                <h2>Gluten free pancake mix</h2>
+                                <h3>The Weekend Hero</h3>
+                                <p>From consistent batter to the sizzling pan, this is fluffy pancake perfection crafted in just minutes. <br>
+                                  Tasteful Surprise:  May cause spontaneous weekend breakfast requests from the neighbours.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="greycontbg">
+                            <div class="contentpart">
+                                <h2>Gluten free multipurpose mix</h2>
+                                <h3>The Baker's Choice</h3>
+                                <p>Swaps directly with wheat flour but performs like it went to culinary school. 
+                                    Make your cakes, cookies, bread with uncompromising taste and texture, invoking the chef's kiss. 
+                                    Tasteful Surprise: Your gluten-eating friends will never guess!
+                                </p>
+                            </div>
+                            <div class="imagepart"><img src="images/img05.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobileview">
+                <div class="owl-carousel owl-theme mob-carousel-01">
+                    <div class="item">
+                        <div class="greycontbg">
+                            <div class="contentpart">
+                                <h2>Gluten free chapathi mix</h2>
+                                <h3>The Flatbread Whisperer</h3>
+                                <p>Soft, stretchy, and surprisingly addictive. Makes 20 perfect chapathis that'll have your family asking for your secret. Tasteful Surprise: The secret is it's gluten-free!</p>
+                            </div>
+                            <div class="imagepart"><img src="images/img04.png"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="greycontbg middlegreycontbg">
+                            <div class="contentpart">
+                                <h2>Gluten free pancake mix</h2>
+                                <h3>The Weekend Hero</h3>
+                                <p>Five minutes to fluffy pancake perfection. Warning: May cause spontaneous weekend breakfast requests from the neighbors. Tasteful Surprise: They're actually healthy!</p>
+                            </div>
+                            <div class="imagepart"><img src="images/img06.png"></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="greycontbg">
+                            <div class="contentpart">
+                                <h2>Gluten free multipurpose mix</h2>
+                                <h3>The 1:1 Miracle Worker</h3>
+                                <p>Swaps directly with wheat flour but performs like it went to culinary school. Cakes, cookies, bread - all with a Ph.D. in deliciousness. Tasteful Surprise: Your gluten-eating friends will never guess!</p>
+                            </div>
+                            <div class="imagepart"><img src="images/img05.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hmethrdcontsec">
+        <div class="mobhmepgicon01"><img src="images/mobhmepganimaicon01.png"></div>
+        <div class="mobhmepgicon02"><img src="images/mobhmepganimaicon02.png"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <h2>The Origin Story: <br> A Kitchen Revolution</h2>
+                    <p>When our founder Raguram Raghulal embraced a gluten free lifestyle,<br> he didn't settle - he innovated. Like every gluten free food seeker, he found himself asking the same questions: "Will I have to compromise on taste? <br> Is it right for my palate? Will I miss out on delicious food?"</p>
+                    <p>He turned this concern and empathy into a tenacious drive towards making gluten free cuisines desirable as any other loved tasty fare.</p>
+                    <p>Armed with decades of baking wizardry and an obsession with perfection, <br> we set out to prove that gluten free ingredients can indeed help you whip up the tastiest dishes. No love lost: only your tastebuds loving every bite.</p>
+                    <p>Today, we're rewriting the rules of what gluten free can be. <br> One delectable bite at a time.</p>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1">
+                    <div class="hmethrdcontfunfactimg">
+                        <div class="middlefuntact">
+                            <div class="whtefunfacttoparrow"><img src="images/whtefunfacttoparrow.png"></div>
+                            <a class="modalbutton" type="button" data-bs-toggle="modal" data-bs-target="#secondModal"><img src="images/Funfact.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="imgsec"><img src="images/img01.jpg"></div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline preload="auto">
+            <source src="video/hmepgthrdsecvid.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div class="hmefrthcontsec">
+        <div class="container">
+            <h2>The growing gluten free army - welcome to the taste revolution</h2>
+            <h3>Who's Joining Our Growing Community?</h3>
+            <div class="owl-carousel owl-theme community-carousel">
+                <div class="item">
+                    <div class="sglecommunitycontsec">
+                        <div class="lftcommunitycontsec">
+                            <div class="communitycontwidth">
+                                <h4>The Family Heroes</h4>
+                                <h5>"Mixed dietary households made simple."</h5>
+                                <p>A safe food ingredient option that even the rest of the family can try.</p>
+                            </div>
+                        </div>
+                        <div class="rytcommunitycontsec"><img src="images/img02.jpg"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sglecommunitycontsec">
+                        <div class="lftcommunitycontsec">
+                            <div class="communitycontwidth">
+                                <h4>The Curious Explorers</h4>
+                                <h5>"Wait, this is supposed to be gut-friendly and indulgent?"</h5>
+                                <p>&bull; Ready to discover what "light and energetic" actually feels like.</p>
+                                <p>&bull; Knows that gut-friendly food doesn't mean boring, but can be exciting.</p>
+                            </div>
+                        </div>
+                        <div class="rytcommunitycontsec"><img src="images/img03-carousel.jpg"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sglecommunitycontsec">
+                        <div class="lftcommunitycontsec">
+                            <div class="communitycontwidth">
+                                <h4>The Celiac Champions</h4>
+                                <h5>"Finally, food that doesn't make me feel like I deserve better.'"</h5>
+                                <p>&bull; AOECS certified = Internationally acclaimed.</p>
+                                <p>&bull; Every bite backed by 35+ full member societies on an international stage.</p>
+                                <p>&bull; Championing the interests of around 300,000 affected people affected by celiac disease. </p>
+                                <p>Source: <a href="#">www.aoecs.org</a></p>
+                            </div>
+                        </div>
+                        <div class="rytcommunitycontsec"><img src="images/img04-carousel.jpg"></div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="sglecommunitycontsec">
+                        <div class="lftcommunitycontsec">
+                            <div class="communitycontwidth">
+                                <h4>The Taste Rebels</h4>
+                                <h5>"I don't care about labels: I care about flavour."</h5>
+                                <p>&bull; Food lovers who refuse to compromise.</p>
+                                <p>&bull; "Why shouldn't I have indulgent food that's easy on my gut too?" 
+</p>
+                                <p>&bull; Making gluten eaters jealous since day one.</p>
+                            </div>
+                        </div>
+                        <div class="rytcommunitycontsec"><img src="images/img05-carousel.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hmefifthcontsec">
+        <div class="container">
+            <h2>Stay in to know</h2>
+            <div class="desktopview">
+                <div class="fifthsecboxpart">
+                    <div class="sglefifthsecboxsec"><img src="images/1.png"></div>
+                    <div class="sglefifthsecboxsec center"><img src="images/2.png"></div>
+                    <div class="sglefifthsecboxsec"><img src="images/3.png"></div>
+                </div>
+            </div>
+            <div class="mobileview">
+                <div class="owl-carousel owl-theme mob-carousel-02">
+                    <div class="item"><img src="images/1.png"></div>
+                    <div class="item"><img src="images/2.png"></div>
+                    <div class="item"><img src="images/3.png"></div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline preload="auto">
+            <source src="video/stayintoknow.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div class="hmesixthcontsec">
+        <div class="mobhmepgicon03"><img src="images/mobhmepganimaicon03.png"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <h2>The certification story</h2>
+                    <h3>Why AOECS Makes All the Difference</h3>
+                    <p><strong>The Gold Standard of Gluten Free:</strong></p>
+                    <p>Imagine if there was a certification so rigorous, so internationally respected, that celiacs worldwide trusted it with their lives. That's AOECS.</p>
+                    <div class="spacer"></div>
+                    <p><strong>What Makes AOECS Special:</strong></p>
+                    <ul>
+                        <li>39 Celiac Societies across Europe, and AOECS affiliate members <br> across the globe </li>
+                        <li>Annual Facility Audits: No shortcuts, no compromises</li>
+                        <li>≤20ppm Gluten Guarantee: Scientifically validated reliability  </li>
+                        <li>23,000+ Licensed Gluten Free Products: Worldwide trust network</li>
+                        <li>The Crossed Grain Symbols: Recognized globally</li>
+                    </ul>
+                    <p>In India, we're practically the final word in gluten free. </p>
+                     <p>Source: <a href="#">www.aoecs.org</a></p>
+                </div>
+                <div class="col-xl-5 col-lg-5 col-md-5">
+                    <div class="yellowfunfactsec">
+                        <div class="yellowfunfact">
+                            <div class="yellowfunfacttoparrow"><img src="images/yllowfunfacttoparrow.png"></div>
+                            <a class="modalbutton" type="button" data-bs-toggle="modal" data-bs-target="#thirdModal"><img src="images/yllowfunfact.png"></a>
+                        </div>
+                    </div>
+                    <div class="aoecspart"><img src="images/aoecs.png"></div>
+                </div>
+            </div>
+        </div>
+        <video autoplay muted loop playsinline preload="auto">
+            <source src="video/forthvideo.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <div class="hmeseventhcontsec">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 col-lg-7 col-md-7">
+                    <h2>Mind-Blowing Gluten Free Trivia</h2>
+                    <h3>Science Facts:</h3>
+                    <p><strong>Fibre Content</strong><br>Our Gluten Free products are infused with fibre addressing dietary necessities.</p>
+                    <p><strong>Dietary Fibre (g)</strong><br>Chapathi Mix: 2.39 <br>Multipurpose Mix: 2.22 <br> Pancake Mix: 2.09 <br> Maida: 2.76(IFCT); 3.20(test report) <br>Chakki Atta: 11.36 (IFCT); 9.2(test report)</p>
+                    <p><strong>Energy giving food</strong><br>Many professional athletes add gluten free food in their diet for better <br> nutrient absorption and to eliminate fatigue, leading to improved energy.</p>
+                    <p><strong>Absorption Power</strong><br>Psyllium Husk used in our mixes absorbs more water <br>improving texture and volume, and aids better digestion.</p>
+                    <h3>Reliteaur Facts:</h3>
+                    <p><strong>Recipe Development</strong><br>Our founder taste-tested 200+ recipe iterations before perfection.</p>
+                    <p><strong>Unique Certification</strong><br>We're an Indian gluten free brand with European Celiac Society approval.</p>
+                    <p><strong>Versatile Mix</strong><br>Our gluten free pancake mix can help you whip up a multitude of recipes <br> (we are still counting...).</p>
+                </div>
+                <div class="col-xl-1 col-lg-1 col-md-1">
+                    <div class="hmeseventhcontfunfactimg">
+                        <div class="middlefuntact">
+                            <div class="whtefunfacttoparrow"><img src="images/whtefunfacttoparrow.png"></div>
+                            <a class="modalbutton" type="button" data-bs-toggle="modal" data-bs-target="#forthModal"><img src="images/Funfact.png"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4">
+                    <div class="imgsec"><img src="images/img03.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footersec" id="footer">
+        <div class="container">
+            <div class="desktopview">
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-2"><a href="index.html"><img src="images/footer-logo.png"></a></div>
+                    <div class="col-xl-11 col-lg-11 col-md-11 col-10">
+                        <div class="row">
+                            <div class="col-xl-1 col-lg-1 col-md-1 col-6">
+                                <div class="ftrfstcolsec">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="#">Gluten Free Recipes</a></li>
+                                        <li><a href="#">Blogs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                                <div class="ftrlinksec">
+                                    <h2>Products</h2>
+                                    <ul>
+                                        <li><a href="#">Multipurpose Mix</a></li>
+                                        <li><a href="#">Chapathi Mix</a></li>
+                                        <li><a href="#">Pancake Mix</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-lg-7 col-md-7 col-12">
+                                <div class="ftrlinksec">
+                                    <h2>Contact Us</h2>
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                            <ul>
+                                                <li>Phone: <a href="#">1800 425 4305</a></li>
+                                                <li>GSTIN: <a href="#">32AALCR7773F1Z3</a></li>
+                                                <li class="contact-email">Email: <a href="#">customercare@reliteaur.com</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                            <ul>
+                                                <li><a href="#">37/40 A, Sidco Industrial Estate, Peringandoor.P.O, Athani, Peringandoor, Thrissur, Kerala, 680581</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                                <div class="ftrlinksec">
+                                    <h2>Follow us</h2>
+                                    <ul class="ftrsocial">
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-12">
+                                <div class="btmftr">
+                                    <p>© 2025 Reliteaur foods private limited all rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobileview">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="index.html"><img src="images/footer-logo.png"></a>
+                    </div>
+                    <div class="col-9">
+                        <div class="ftrfstcolsec">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Gluten Free Recipes</a></li>
+                                <li><a href="#">Blogs</a></li>
+                            </ul>
+                        </div>
+                        <div class="ftrlinksec">
+                            <h2>Products</h2>
+                            <ul>
+                                <li><a href="#">Multipurpose Mix</a></li>
+                                <li><a href="#">Chapathi Mix</a></li>
+                                <li><a href="#">Pancake Mix</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="ftrlinksec">
+                            <h2>Contact Us</h2>
+                                <ul>
+                                    <li>Phone: <a href="#">1800 425 4305</a></li>
+                                    <li>GSTIN: <a href="#">32AALCR7773F1Z3</a></li>
+                                    <li>Email: <a class="" href="#">customercare@reliteaur.com</a></li>
+                                    <li><a href="#">37/40 A, Sidco Industrial Estate, Peringandoor.P.O, Athani, Peringandoor, Thrissur, Kerala, 680581</a></li>
+                                </ul> 
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="ftrlinksec">
+                            <h2>Follow us</h2>
+                            <ul class="ftrsocial">
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="btmftr">
+                            <p>© 2025 Reliteaur foods private limited all rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/owlcarouselcustom.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/wowscripts.js"></script>
+    <script type="text/javascript" src="js/jquery.readall.js"></script>
+    <script type="text/javascript" src="js/readall.js"></script>
+    <script type="text/javascript" src="js/jquery.slimmenu.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+    <script type="text/javascript" src="js/autoheight.js"></script>
+</body>
+</html>
