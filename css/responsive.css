@@ -1319,6 +1319,11 @@ ul.ftrsocial li a
 
 }
 
+
+
+
+
+
 @media screen and (max-width: 479px) {
 
     .hmefstdatasec .container .row
@@ -1337,20 +1342,11 @@ ul.ftrsocial li a
 .mobilecolor3 {background: #33B2BB;
 }
 
-.funfact
-{
-    justify-content: flex-end;
-    flex-direction: column;
-   margin-top: 50px;
-}
-
 .mobileshow {  
         display: inline;
         position: absolute !important;
-       top:402px !important;
-       left: -288px!important;
-        
-         
+        top:420px  ; 
+        right: 0px!important;
         width: 170%;
         z-index: 1!important;
      overflow: hidden;
@@ -1359,6 +1355,18 @@ ul.ftrsocial li a
  
     }  
 
+     
+
+.mobilehide {display: none;}
+
+.funfact
+{
+    justify-content: flex-end;
+    flex-direction: column;
+   margin-top: 50px;
+}
+
+ 
      
 
 .mobilehide {display: none;}
@@ -1457,5 +1465,95 @@ ul.ftrsocial li a
 }
 
 
+
+}
+
+@media screen and (max-width: 412px) {
+.mobileshow {  
+        display: inline;
+        position: absolute !important;
+       top:401px!important  ;
+       right: 0px!important;
+        
+         
+        width: 170%;
+        z-index: 1!important;
+     overflow: hidden;
+       
+
+ 
+    }  
+
+     
+
+.mobilehide {display: none;}
+
+}
+
+@media screen and (max-width: 430px) {
+.mobileshow {  
+        display: inline;
+        position: absolute !important;
+        top:401px!important ;
+       right: 0px!important;
+        
+         
+        width: 170%;
+        z-index: 1!important;
+     overflow: hidden;
+       
+
+ 
+    }  
+
+     
+
+.mobilehide {display: none;}
+
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+.mobileshow {  
+        display: inline;
+        position: absolute !important;
+        top:430px!important;
+        right: 0px!important;
+        width: 170%;
+        z-index: 1!important;
+     overflow: hidden;
+       
+
+ 
+    }  
+
+     
+
+.mobilehide {display: none;}
+
+}
+
+
+@media screen and (max-width: 360px) {
+.mobileshow {  
+        display: inline;
+        position: absolute !important;
+       top:465px !important;
+       left: -250px!important;
+        
+         
+        width: 170%;
+        z-index: 1!important;
+     overflow: hidden;
+       
+
+ 
+    }  
+
+     
+
+.mobilehide {display: none;}
 
 }
