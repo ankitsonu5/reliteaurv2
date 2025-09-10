@@ -1337,6 +1337,13 @@ ul.ftrsocial li a
 .mobilecolor3 {background: #33B2BB;
 }
 
+.funfact
+{
+    justify-content: flex-end;
+    flex-direction: column;
+   margin-top: 50px;
+}
+
 .mobileshow {  
         display: inline;
         position: absolute !important;
