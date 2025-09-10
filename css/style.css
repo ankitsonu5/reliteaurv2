@@ -180,6 +180,9 @@ body
 
 /* code end  */
 
+
+
+
 .hmefstcontsec
 {
     position:relative;
@@ -215,6 +218,7 @@ body
 {
     align-items: center;
     height: 100%;
+     
 }
 .hmefstdatalftpart
 {
@@ -1713,7 +1717,7 @@ a.modalbutton
     padding:40px 50px 0 0;
     order: 1;
 }
-.mobchapathiimg01, .mobchapathiimg02, .mobchapathiimg03, .mobchapathiimg04, .mobchapathiimg05, .mobmultipurposeimg01, .mobmultipurposeimg02, .mobmultipurposeimg03, .mobmultipurposeimg04, .mobpancakeimg01, .mobpancakeimg02, .mobpancakeimg03, .mobpancakeimg04, .mobhmepgicon01, .mobhmepgicon02, .bluetickicon, .mobhmepgicon03
+.mobchapathiimg01, .mobchapathiimg02, .mobchapathiimg03, .mobchapathiimg04, .mobchapathiimg05, .mobmultipurposeimg01, .mobmultipurposeimg02, .mobmultipurposeimg03, .mobmultipurposeimg04, .mobpancakeimg01, .mobpancakeimg02, .mobpancakeimg03, .mobpancakeimg04, .mobhmepgicon01, .mobhmepgicon02, .bluetickicon, .mobhmepgicon03, .lftrecipecontsec h2
 {
     display: none;
 }
@@ -1729,3 +1733,9 @@ a.modalbutton
     color: white !important;
     font-size:20px !important;
 }*/
+
+ .mobileshow{display: none;}
+  .mobileshow3{display: none;}
+ .mobilehide {
+    display: block; 
+}
