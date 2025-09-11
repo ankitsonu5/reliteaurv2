@@ -275,7 +275,7 @@ body
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    row-gap: 200px;
+    row-gap: 100px;
 }
 .heartnarrowdiv
 {
@@ -300,6 +300,9 @@ body
     position: relative;
     padding: 40px 0 0;
 }
+
+.bluetickicon2 {margin-left: 75px;}
+
 .whtefunfacttoparrow
 {
     position: absolute;
