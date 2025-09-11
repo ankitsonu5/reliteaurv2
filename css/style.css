@@ -1739,3 +1739,6 @@ a.modalbutton
  .mobilehide {
     display: block; 
 }
+
+.mobileshowhomepage {display: none;}
+.mobilehidehomepage{display: block;}
