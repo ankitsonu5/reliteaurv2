@@ -482,6 +482,21 @@ ul.ftrsocial
 }
 
 @media screen and (max-width: 767px) {
+    .buttons {
+    margin: 0 auto;
+    max-width: fit-content;
+    background: var(--hibiscus);
+    width: auto;
+    line-height: 60px;
+    font-size: var(--size-24);
+    font-weight: normal;
+    color: var(--white);
+    display: block;
+    text-align: center;
+    border-radius: 30px;
+    transition: var(--transition);
+    padding: 0 40px;
+}
 
  .mobilehidehomepage {display: none; }
 
