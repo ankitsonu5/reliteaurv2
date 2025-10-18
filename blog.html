@@ -184,6 +184,63 @@
     color: #c95f2e; /* Darker orange on hover */
     text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+    .modal-backdrop{
+        height: 100%;
+        width: 100%;
+    }
+        .custom-modal {
+            margin: 5px;
+            padding-top: 10px;
+        }
+
+        .modal-header {
+            padding: 10px 15px;
+        }
+
+        .close-btn {
+            top: 8px;
+            right: 10px;
+            font-size: 1.2rem;
+        }
+
+        .modal-body {
+            padding: 15px;
+        }
+
+        .modal-body h4 {
+            font-size: 1.2rem;
+        }
+
+        .modal-body p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+    }
+
+    /* Accessibility Enhancements */
+    .close-btn:focus {
+        outline: 2px solid #2a3f2f;
+        outline-offset: 2px;
+    }
+
+    .custom-modal:focus-within {
+        outline: 2px solid #2a3f2f;
+        outline-offset: 4px;
+    }
+
+    /* Hover Effects for Interactive Elements */
+    .modal-body a {
+        color: #e07b39;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .modal-body a:hover {
+        color: #c95f2e;
+        text-decoration: underline;
+    }
      
 
  
