@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slimmenu.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Relteaur</title>
+</head>
+
+<style>
+
+
+/* ==================== DEFAULT (DESKTOP) ==================== */
+.contact-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    padding-top: 150px;
+    background: #b56a29;
+    flex-wrap: wrap;
+    background-image: url(../images/img01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* LEFT SECTION */
+.contact-left {
+    width: 40%;
+    text-align: center;
+    position: relative;
+}
+
+.contact-img {
+    width: 90%;
+    max-width: 450px;
+}
+
+.contact-heading {
+    font-family: var(--vinasans);
+    font-size: var(--size-130);
+    font-weight: normal;
+    color: #fff;
+    margin-top: -150px;
+}
+
+/* RIGHT SECTION */
+.contact-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+input:placeholder-shown{
+    color: #6b4c3b;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 25px;
+    background: #f7e4c8;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #6b4c3b;
+    
+}
+
+.contact-form textarea {
+    padding: 40px;
+     height: auto;
+    min-height: 250px;      /* ← jitni height chahiye set kar lo */
+    overflow: hidden;       /* ← scroll bar gayab */
+    /* resize: none;           ← bottom-right handle bhi hide */
+}
+
+
+
+/* SUBMIT BUTTON — LEFT BY DEFAULT */
+.submit-btn {
+    width: 180px;
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 40px;
+    background: #ba0e7c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    align-self: flex-start;   /* Desktop = Left */
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #9c6f4e; /* apna custom color */
+    opacity: 1;     /* Safari ke liye important */
+}
+
+
+
+
+
+/* ==================== 1920px ==================== */
+@media (max-width: 1920px) {
+
+}
+
+
+/* ==================== 1366px ==================== */
+@media (max-width: 1366px) {
+    .contact-heading {
+        font-size: var(--size-130);
+        margin-top: -100px;
+    }
+}
+
+
+/* ==================== 768px (Tablet) ==================== */
+@media (max-width: 768px) {
+
+    .contact-wrapper {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 80px;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-heading {
+         padding-bottom: 25px;
+        font-size: 60px;
+        margin-top: 0;
+    }
+
+    /* Button center on tablet */
+    .submit-btn {
+        align-self: center !important;
+    }
+}
+
+
+/* ==================== 480px (Mobile) ==================== */
+@media (max-width: 480px) {
+
+    .contact-heading {
+        padding-bottom: 25px;
+        font-size: 42px;
+    }
+
+    .contact-img {
+        width: 100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .submit-btn {
+        width: 150px;
+        font-size: 18px;
+        align-self: center !important; /* Mobile button center */
+    }
+
+    
+  .contact-form {
+        max-width: 100% !important;   /* ← full screen */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100% !important;       /* ← full width */
+    }
+}
+
+
+</style>
+
+<body>
+    <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="firstModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content sndmodalbg">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modalcontwidth">
+                    <p> Bengal gram (Chickpea flour) <br> has been used in Indian <br> cooking for ages. <br> We just
+                        made it pancake-ready!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myDiv" class="mobmenubgsec" style="display: none;">
+        <div class="mobmenutopsec">
+            <div class="mobmenutitle">Menu</div>
+            <div class="modalclose" id="mobhamburger"><img src="images/close.svg"></div>
+        </div>
+        <ul class="slimmenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Our Products</a>
+                <ul>
+                    <li><a href="gluten-free-chapathi-mix.html">Gluten Free Chapathi Mix</a></li>
+                    <li><a href="gluten-free-multipurpose-mix.html">Gluten Free Multipurpose Mix</a></li>
+
+                    <li><a href="gluten-free-pancake-mix.html">Gluten Free Pancake Mix</a></li>
+                </ul>
+            </li>
+            <li><a href="recipe.html">Gluten Free Recipes</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg headersec">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Our Products</a>
+                        <ul>
+                            <li><a href="gluten-free-chapathi-mix.html">Gluten Free Chapathi Mix</a></li>
+                            <li><a href="gluten-free-multipurpose-mix.html">Gluten Free Multipurpose Mix</a></li>
+
+                            <li><a href="gluten-free-pancake-mix.html">Gluten Free Pancake Mix</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="recipe.html">Gluten Free Recipes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blogs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="javascript:void(0)" id="fadeButton" class="mobhamburger"></a>
+        </div>
+    </nav>
+
+
+    <!-- <div class="sidebtmtxt">Made in a dedicated gluten free manufacturing unit to ensure purity and safety.</div> -->
+    <section class="contact-wrapper">
+    <div class="contact-left">
+        <img src="/mnt/data/37616c46-cda6-4424-9442-e365ecc100cc.png" class="contact-img" alt="">
+        <h1 class="contact-heading">CONTACT US</h1>
+    </div>
+
+    <div class="contact-right">
+        <form class="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Contact Number*" required>
+            <input type="email" placeholder="Email*" required>
+            <input type="text" placeholder="City">
+
+            <textarea placeholder="What are you interested in?" rows="5"></textarea>
+
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </div>
+</section>
+
+
+
+
+    <footer class="footersec" id="footer">
+        <div class="container">
+            <div class="desktopview">
+                <div class="row">
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-2"><a href="index.html"><img
+                                src="images/footer-logo.png"></a></div>
+                    <div class="col-xl-11 col-lg-11 col-md-11 col-10">
+                        <div class="row">
+
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                                <div class="ftrlinksec">
+                                    <h2>Products</h2>
+                                    <ul>
+                                        <li><a href="gluten-free-chapathi-mix.html">Gluten Free Chapathi Mix</a></li>
+                                        <li><a href="gluten-free-multipurpose-mix.html">Gluten Free Multipurpose Mix</a>
+                                        </li>
+                                        <li><a href="gluten-free-pancake-mix.html">Gluten Free Pancake Mix</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                <div class="ftrlinksec">
+                                    <h2>Contact Us</h2>
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                                            <ul>
+                                                <li>Phone:<br> 1800 425 4305</li>
+                                                <li>GSTIN: 32AALCR7773F1Z3</li>
+                                                <li class="contact-email">Email: <a
+                                                        href="mailto:customercare@reliteaur.com">customercare@reliteaur.com</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                <div class="ftrlinksec">
+                                    <h2>Address</h2>
+                                    <ul>
+                                        <li><strong>Manufacturing Address:</strong> <br> 37/40 A, Sidco Industrial
+                                            Estate, Peringandoor.P.O, Athani, Peringandoor, Thrissur, Kerala, 680581
+                                        </li>
+                                        <li><strong>Marketing Office:</strong> <br> Elite Natural Pvt Ltd, 3rd Floor,
+                                            Unitus/Shakthi Rise Building, 2150, 17th Main Rd, HAL 2nd Stage,
+                                            Indiranagar, Bengaluru, Karnataka 560008Contact: +91- 9739008624</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                                <div class="ftrlinksec">
+                                    <h2>Follow us</h2>
+                                    <ul class="ftrsocial">
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12 col-lg-12 col-12">
+                                <div class="btmftr">
+                                    <p>© 2025 Reliteaur foods private limited all rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobileview">
+                <div class="row">
+                    <div class="col-3">
+                        <a href="index.html"><img src="images/footer-logo.png"></a>
+                    </div>
+                    <div class="col-9">
+                        <div class="ftrfstcolsec">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="recipe.html">Gluten Free Recipes</a></li>
+                                <li><a href="blog.html">Blogs</a></li>
+                            </ul>
+                        </div>
+                        <div class="ftrlinksec">
+                            <h2>Products</h2>
+                            <ul>
+                                <li><a href="gluten-free-chapathi-mix.html">Gluten Free Chapathi Mix</a></li>
+                                <li><a href="gluten-free-multipurpose-mix.html">Gluten Free Multipurpose Mix</a></li>
+                                <li><a href="gluten-free-pancake-mix.html">Gluten Free Pancake Mix</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="ftrlinksec">
+                            <h2>Contact Us</h2>
+                            <ul>
+                                <li>Phone: 1800 425 4305</li>
+                                <li>GSTIN: 32AALCR7773F1Z3</li>
+                                <li>Email: <a class=""
+                                        href="mailto:customercare@reliteaur.com">customercare@reliteaur.com</a></li>
+                                <li><strong>Manufacturing Address:</strong> <br> 37/40 A, Sidco Industrial Estate,
+                                    Peringandoor.P.O, Athani, Peringandoor, Thrissur, Kerala, 680581</a></li>
+                                <li><strong>Marketing Office:</strong> <br> Elite Natural Pvt Ltd, 3rd Floor,
+                                    Unitus/Shakthi Rise Building, 2150, 17th Main Rd, HAL 2nd Stage, Indiranagar,
+                                    Bengaluru, Karnataka 560008, Contact: +91- 9739008624</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="ftrlinksec">
+                            <h2>Follow us</h2>
+                            <ul class="ftrsocial">
+                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-12">
+                        <div class="btmftr">
+                            <p>© 2025 Reliteaur foods private limited all rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/owlcarouselcustom.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/wowscripts.js"></script>
+    <script type="text/javascript" src="js/jquery.slimmenu.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
