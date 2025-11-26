@@ -21,201 +21,201 @@
 </head>
 
 <style>
-
-
-/* ==================== DEFAULT (DESKTOP) ==================== */
-.contact-wrapper {
-    height: 100vh;
-    min-height: 1100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    padding-top: 150px;
-    flex-wrap: wrap;
-    background-image: url(./images/contact_img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-}
-
-/* LEFT SECTION */
-.contact-left {
-    width: 40%;
-    text-align: center;
-    position: relative;
-}
-
-.contact-img {
-    width: 90%;
-    max-width: 450px;
-}
-
-.contact-heading {
-    font-family: var(--vinasans);
-    font-size: var(--size-130);
-    font-weight: normal;
-    color: #fff;
-    margin-top: -250px;
-}
-
-/* RIGHT SECTION */
-.contact-right {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.contact-form {
-    width: 100%;
-    max-width: 90%;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-}
-
-input:placeholder-shown{
-    color: #6b4c3b;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 25px;
-    background: #f7e4c8;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    color: #6b4c3b;
-    
-}
-
-.contact-form textarea {
-    padding: 40px;
-     height: auto;
-    min-height: 250px;      /* ← jitni height chahiye set kar lo */
-    overflow: hidden;       /* ← scroll bar gayab */
-    /* resize: none;           ← bottom-right handle bhi hide */
-}
-
-
-
-/* SUBMIT BUTTON — LEFT BY DEFAULT */
-.submit-btn {
-    width: 180px;
-    padding: 15px 0;
-    font-size: 22px;
-    font-weight: bold;
-    border: none;
-    border-radius: 40px;
-    background: #ba0e7c;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.3s;
-    align-self: flex-start;   /* Desktop = Left */
-}
-
-.submit-btn:hover {
-    opacity: 0.8;
-}
-
-.contact-form input::placeholder,
-.contact-form textarea::placeholder {
-    color: #9c6f4e; /* apna custom color */
-    opacity: 1;     /* Safari ke liye important */
-}
-
-
-
-
-
-/* ==================== 1920px ==================== */
-@media (max-width: 1920px) {
-
-}
-
-
-/* ==================== 1366px ==================== */
-@media (max-width: 1366px) {
-    .contact-heading {
-        font-size: var(--size-130);
-        margin-top: -100px;
-    }
-}
-
-
-/* ==================== 768px (Tablet) ==================== */
-@media (max-width: 768px) {
-
+    /* ==================== DEFAULT (DESKTOP) ==================== */
     .contact-wrapper {
-        min-height: 850px;
-        flex-direction: column;
+        height: 100vh;
+        min-height: 1100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        padding-top: 150px;
+        flex-wrap: wrap;
+        background-image: url(./images/contact_img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    /* LEFT SECTION */
+    .contact-left {
+        width: 40%;
         text-align: center;
-        height: auto;
-        padding-top: 80px;
-        justify-content: start;
-    }
-
-    .contact-left,
-    .contact-right {
-        width: 100%;
-    }
-
-    .contact-heading {
-         padding-bottom: 25px;
-        font-size: 60px;
-        margin-top: 0;
-    }
-
-    /* Button center on tablet */
-    .submit-btn {
-        align-self: center !important;
-    }
-}
-
-
-/* ==================== 480px (Mobile) ==================== */
-@media (max-width: 480px) {
-     .contact-wrapper{
-        min-height: 780px;
-     }
-
-    .contact-heading {
-        padding-bottom: 25px;
-        font-size: 42px;
+        position: relative;
     }
 
     .contact-img {
+        width: 90%;
+        max-width: 450px;
+    }
+
+    .contact-heading {
+        font-family: var(--vinasans);
+        font-size: var(--size-130);
+        font-weight: normal;
+        color: #fff;
+        margin-top: -250px;
+    }
+
+    /* RIGHT SECTION */
+    .contact-right {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form {
         width: 100%;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    input:placeholder-shown {
+        color: #6b4c3b;
     }
 
     .contact-form input,
     .contact-form textarea {
-        font-size: 16px;
-        padding: 15px;
+        width: 100%;
+        padding: 25px;
+        background: #f7e4c8;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        color: #6b4c3b;
+
     }
 
+    .contact-form textarea {
+        padding: 40px;
+        height: auto;
+        min-height: 250px;
+        /* ← jitni height chahiye set kar lo */
+        overflow: hidden;
+        /* ← scroll bar gayab */
+        /* resize: none;           ← bottom-right handle bhi hide */
+    }
+
+
+
+    /* SUBMIT BUTTON — LEFT BY DEFAULT */
     .submit-btn {
-        width: 150px;
-        font-size: 18px;
-        align-self: center !important; /* Mobile button center */
+        width: 180px;
+        padding: 15px 0;
+        font-size: 22px;
+        font-weight: bold;
+        border: none;
+        border-radius: 40px;
+        background: #ba0e7c;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.3s;
+        align-self: flex-start;
+        /* Desktop = Left */
     }
 
-    
-  .contact-form {
-        max-width: 100% !important;   /* ← full screen */
+    .submit-btn:hover {
+        opacity: 0.8;
     }
 
-    .contact-form input,
-    .contact-form textarea {
-        width: 100% !important;       /* ← full width */
+    .contact-form input::placeholder,
+    .contact-form textarea::placeholder {
+        color: #9c6f4e;
+        /* apna custom color */
+        opacity: 1;
+        /* Safari ke liye important */
     }
-}
 
 
 
 
+
+    /* ==================== 1920px ==================== */
+    @media (max-width: 1920px) {}
+
+
+    /* ==================== 1366px ==================== */
+    @media (max-width: 1366px) {
+        .contact-heading {
+            font-size: var(--size-130);
+            margin-top: -100px;
+        }
+    }
+
+
+    /* ==================== 768px (Tablet) ==================== */
+    @media (max-width: 768px) {
+
+        .contact-wrapper {
+            min-height: 850px;
+            flex-direction: column;
+            text-align: center;
+            height: auto;
+            padding-top: 80px;
+            justify-content: start;
+        }
+
+        .contact-left,
+        .contact-right {
+            width: 100%;
+        }
+
+        .contact-heading {
+            padding-bottom: 25px;
+            font-size: 60px;
+            margin-top: 0;
+        }
+
+        /* Button center on tablet */
+        .submit-btn {
+            align-self: center !important;
+        }
+    }
+
+
+    /* ==================== 480px (Mobile) ==================== */
+    @media (max-width: 480px) {
+        .contact-wrapper {
+            min-height: 780px;
+        }
+
+        .contact-heading {
+            padding-bottom: 25px;
+            font-size: 42px;
+        }
+
+        .contact-img {
+            width: 100%;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            font-size: 16px;
+            padding: 15px;
+        }
+
+        .submit-btn {
+            width: 150px;
+            font-size: 18px;
+            align-self: center !important;
+            /* Mobile button center */
+        }
+
+
+        .contact-form {
+            max-width: 100% !important;
+            /* ← full screen */
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100% !important;
+            /* ← full width */
+        }
+    }
 </style>
 
 <body>
@@ -279,24 +279,24 @@ input:placeholder-shown{
 
     <!-- <div class="sidebtmtxt">Made in a dedicated gluten free manufacturing unit to ensure purity and safety.</div> -->
     <section class="contact-wrapper">
-    <div class="contact-left">
-        <img src="/mnt/data/37616c46-cda6-4424-9442-e365ecc100cc.png" class="contact-img" alt="">
-        <h1 class="contact-heading">CONTACT US</h1>
-    </div>
+        <div class="contact-left">
+            <img src="/mnt/data/37616c46-cda6-4424-9442-e365ecc100cc.png" class="contact-img" alt="">
+            <h1 class="contact-heading">CONTACT US</h1>
+        </div>
 
-    <div class="contact-right">
-        <form class="contact-form">
-            <input type="text" placeholder="Name" required>
-            <input type="text" placeholder="Contact Number*" required>
-            <input type="email" placeholder="Email*" required>
-            <input type="text" placeholder="City">
+        <div class="contact-right">
+            <form class="contact-form" action="contact_process.php" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="phone" placeholder="Contact Number*" required>
+                <input type="email" name="email" placeholder="Email*" required>
+                <input type="text" name="city" placeholder="City">
 
-            <textarea placeholder="What are you interested in?" rows="5"></textarea>
+                <textarea name="message" placeholder="What are you interested in?" rows="5"></textarea>
 
-            <button type="submit" class="submit-btn">SUBMIT</button>
-        </form>
-    </div>
-</section>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </form>
+        </div>
+    </section>
 
 
 
@@ -448,6 +448,19 @@ input:placeholder-shown{
     <script type="text/javascript" src="js/jquery.slimmenu.js"></script>
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
+    <script>
+        // Check for status query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const status = urlParams.get('status');
+
+        if (status === 'success') {
+            alert('Thank you! Your message has been sent successfully.');
+        } else if (status === 'error') {
+            alert('Please fill in all required fields.');
+        } else if (status === 'fail') {
+            alert('Sorry, there was an error sending your message. Please try again later.');
+        }
+    </script>
 </body>
 
 </html>
